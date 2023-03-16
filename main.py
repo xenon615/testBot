@@ -4,5 +4,5 @@ bot = telebot.TeleBot(token)
 
 @bot.message_handler(commands=['start', 'help'])
 def handle_start_help(message: telebot.types.Message):
-    bot.send_message(message.from_user.id, 'echo')
+    bot.send_message(message.from_user.id, 'Я работаю автономно , кля !!!!')
 bot.infinity_polling()
