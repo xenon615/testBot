@@ -6,7 +6,7 @@ import telebot
 token = os.environ['TOKEN']
 bot = telebot.TeleBot(token)
 
-UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
+UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_STREAM)
 UDPServerSocket.bind(('localhost', 666))
 
 
