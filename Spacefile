@@ -1,6 +1,0 @@
-v: 0
-app_name: "TestBot"
-micros:
-  - name: bot
-    src: .
-    engine: python3.9
