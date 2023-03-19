@@ -12,5 +12,5 @@ UDPServerSocket.bind(('localhost', 666))
 
 @bot.message_handler(commands=['start', 'help'])
 def handle_start_help(message: telebot.types.Message):
-    bot.send_message(message.from_user.id, 'Я работаю автономно , кля !!!!')
+    bot.send_message(message.from_user.id, 'Я работаю автономно , клё !!!!')
 bot.infinity_polling()
